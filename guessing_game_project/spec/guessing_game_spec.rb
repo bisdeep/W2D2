@@ -7,7 +7,7 @@ describe "GuessingGame" do
 
   describe "#initialize" do
     it "should accept two numbers, min and max, as args" do
-      guessing_game
+      guessing_game 
     end
 
     it "should set @secret_num to a random number between min and max inclusive" do
